@@ -1,4 +1,5 @@
 function getAndPrintHTMLChunks () {
+ var https = required('https');
 
   var requestOptions = {
     host: 'sytantris.github.io',
@@ -15,4 +16,4 @@ function getAndPrintHTMLChunks () {
       console.log('Response stream complete.');
     });
   }
-}
+};
